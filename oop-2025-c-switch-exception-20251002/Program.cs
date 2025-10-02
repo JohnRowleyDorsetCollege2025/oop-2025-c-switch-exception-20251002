@@ -4,6 +4,7 @@ using oop_2025_c_switch_exception_20251002.Models;
 //ExceptionDemos.UnhandledExceptionDemo();
 //ExceptionDemos.DivideByZeroFail();
 ExceptionDemos.DivideNumbers(10,0);
+ExceptionDemos.DivideNumbers(10, 2);
 //SwitchDemos.PrintTitle();
 //SwitchDemos.MultiBranchIf(5);
 //SwitchDemos.SwitchStatement(6);
