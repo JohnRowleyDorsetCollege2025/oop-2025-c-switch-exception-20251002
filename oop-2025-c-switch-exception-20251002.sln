@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop-2025-c-switch-exception-20251002", "oop-2025-c-switch-exception-20251002\oop-2025-c-switch-exception-20251002.csproj", "{049C98A4-78DC-4A21-9DF5-1B28CBD0C921}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{049C98A4-78DC-4A21-9DF5-1B28CBD0C921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049C98A4-78DC-4A21-9DF5-1B28CBD0C921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049C98A4-78DC-4A21-9DF5-1B28CBD0C921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049C98A4-78DC-4A21-9DF5-1B28CBD0C921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BF26646-D2E6-4E13-82D7-47233EB47082}
+	EndGlobalSection
+EndGlobal
