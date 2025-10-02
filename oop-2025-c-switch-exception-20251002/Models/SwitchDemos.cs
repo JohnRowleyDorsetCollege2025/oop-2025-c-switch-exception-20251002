@@ -112,5 +112,23 @@ namespace oop_2025_c_switch_exception_20251002.Models
             }
         }
 
+        public static void SwitchExpression(int number)
+        {
+            string result = number switch
+            {
+                1 => "One",
+                2 => "Two",
+                3 => "Three",
+                4 => "Four",
+                5 => "Five",
+                6 => "Six",
+                7 => "Seven",
+                8 => "Eight",
+                9 => "Nine",
+                10 => "Ten",
+                _ => "Number out of range"
+            };
+            Console.WriteLine(result);
+        }
     }
 }

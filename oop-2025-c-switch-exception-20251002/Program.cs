@@ -7,6 +7,7 @@ SwitchDemos.SwitchStatement(6);
 SwitchDemos.IsRainbowColor("Blue");
 SwitchDemos.IsRainbowColor("blue   ");
 SwitchDemos.IsRainbowColor("   YeLLoW");
+SwitchDemos.SwitchExpression(6);
 
 
 
