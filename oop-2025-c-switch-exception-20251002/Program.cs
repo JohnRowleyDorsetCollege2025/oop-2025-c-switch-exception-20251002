@@ -5,8 +5,8 @@ SwitchDemos.PrintTitle();
 SwitchDemos.MultiBranchIf(5);
 SwitchDemos.SwitchStatement(6);
 SwitchDemos.IsRainbowColor("Blue");
-SwitchDemos.IsRainbowColor("blue");
-SwitchDemos.IsRainbowColor("YeLLoW");
+SwitchDemos.IsRainbowColor("blue   ");
+SwitchDemos.IsRainbowColor("   YeLLoW");
 
 
 

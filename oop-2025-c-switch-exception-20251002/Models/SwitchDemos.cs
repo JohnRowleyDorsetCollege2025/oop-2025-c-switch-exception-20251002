@@ -50,8 +50,8 @@ namespace oop_2025_c_switch_exception_20251002.Models
             //{
             //    Console.WriteLine($"{color} is not a rainbow color.");
             //}
-
-            switch (color.ToLower())
+            string normalizedColor = color.Trim().ToLower();
+            switch (normalizedColor)
             {
                 case "red":
                 case "orange":
@@ -60,11 +60,11 @@ namespace oop_2025_c_switch_exception_20251002.Models
                 case "blue":
                 case "indigo":
                 case "violet":
-                    Console.WriteLine($"{color} is a color in the rainbow.");
+                    Console.WriteLine($"[{normalizedColor}] is a color in the rainbow.");
                     break;
 
                 default:
-                    Console.WriteLine($"{color} is NOT a color in the rainbow.");
+                    Console.WriteLine($"[{normalizedColor}] is NOT a color in the rainbow.");
                     break;
             }
 
